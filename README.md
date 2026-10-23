@@ -1,3 +1,5 @@
+> **Website / Projektseite:** [CareAssistant](https://eige90.github.io/CareAssistant/) · Projektbeschreibung und lokale Startanleitung.
+
 # CareAssistant v0.6
 
 **Source version / Version im Code:** `v0.6.0`
