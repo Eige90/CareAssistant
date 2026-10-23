@@ -31,6 +31,13 @@ Version 0.6 is a development build. The local signed-out screen is **not** a sec
 
 ---
 
+## Roadmap / Open verification items
+
+- [ ] Verify calendar layout, event-detail dialogs, navigation and remaining v0.6 UI issues.
+- [ ] Verify client autocomplete accepts both existing and new entries.
+- [ ] Before real client data: add authentication, access control, encryption, backups and a privacy review.
+
+
 ## Deutsch
 
 Eine lokale Desktop-Anwendung zur Terminplanung und Verwaltung von Betreuungsakten. Entwickelt mit Python und PySide6.
@@ -59,3 +66,10 @@ Version 0.6 befindet sich in Entwicklung. Die lokale Abmeldeansicht ist **keine*
 ---
 
 Built by [Eige90](https://github.com/Eige90).
+
+## Roadmap / Offene Prüfpunkte
+
+- [ ] Kalenderlayout, Termindetails, Navigation und offene UI-Punkte aus v0.6 überprüfen.
+- [ ] Autovervollständigung bei Betreuten prüfen; unbekannte Eingaben weiterhin zulassen.
+- [ ] Vor Einsatz mit Echtdaten: Anmeldung, Zugriffsschutz, Verschlüsselung, Backups und Datenschutz prüfen.
+
