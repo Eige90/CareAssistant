@@ -1,57 +1,57 @@
-# CareAssistant 0.6
+# CareAssistant v0.6
 
-## Änderungen
+## English
 
-### Kalender
-- Monatsansicht vollständig neu aufgebaut
-- Milchglas-Kacheln mit höherem Schwarz-/Weißanteil für bessere Lesbarkeit
-- Ereignisse werden direkt im jeweiligen Kalendertag angezeigt
-- bis zu drei Ereignisse pro Tag sichtbar, weitere Termine werden zusammengefasst
-- Tages- und Wochenansicht zeigen gespeicherte Ereignisse weiterhin an
+A local desktop application for organizing appointments and case information in legal guardianship workflows. Built with Python and PySide6.
 
-### Profil
-- kein separater Button zum Entfernen des Profilbildes
-- Entfernen nur noch über ein `×` am runden Profilbild beim Hover
-- `×` liegt vollständig innerhalb des Profilbereichs
-- Profilmenü enthält jetzt zusätzlich `Abmelden`
-- Abmelden wechselt in eine lokale abgemeldete Sitzung; es ist noch kein Passwort-/Server-Login
-
-### Über CareAssistant
-- zeigt aktuell ausschließlich Version und Autor
-
-### Modul Betreute
-Erste funktionsfähige Version der digitalen Betreutenakte:
-
-- Suche nach Name und Aktenzeichen
-- Liste aller Betreuten mit Status
-- Betreuten anlegen und bearbeiten
-- Stammdaten
-  - Vorname / Nachname
-  - Geburtsdatum
-  - Anschrift
-  - Telefon / E-Mail mit Validierung
-- Betreuungsfall
-  - Betreuungsgericht
-  - Aktenzeichen
-  - Beginn der Bestellung
-  - Status: Aktiv / Ruhend / Beendet
-  - Aufgabenbereiche
-- Versorgung
-  - Krankenkasse
-  - Pflegegrad
-  - GdB
-- interne Notizen
-- Übersichtskarten für Stammdaten, Betreuungsfall, Aufgabenbereiche und Versorgung
-- lokale persistente Speicherung
-
-## Start
+### Start (Windows PowerShell)
 
 ```powershell
-cd CareAssistant_v0.6
-pip install -r requirements.txt
+git clone https://github.com/Eige90/CareAssistant.git
+cd CareAssistant
+python -m pip install -r requirements.txt
 python main.py
 ```
 
-## Hinweis zum Entwicklungsstand
+Requires Python 3 and the dependencies listed in `requirements.txt`.
 
-Die lokale Speicherung ist für die Entwicklung gedacht. Bevor CareAssistant mit echten Betreutendaten produktiv eingesetzt oder veröffentlicht wird, müssen Datenschutz, Zugriffsschutz, Backups und eine geeignete Verschlüsselung der gespeicherten Daten separat umgesetzt und geprüft werden.
+### Current features
+- Calendar with month, week, and day views and visible events
+- Appointment details and locally stored events
+- Client records with search, case references, guardianship status, contact details, and notes
+- Profile and appearance settings
+- Local persistence
+
+### Development and privacy
+Version 0.6 is a development build. The local signed-out screen is **not** a secure server-backed authentication system. Do not use real sensitive client records in production without appropriate access controls, encryption, backups, and a data-protection review.
+
+---
+
+## Deutsch
+
+Eine lokale Desktop-Anwendung zur Terminplanung und Verwaltung von Betreuungsakten. Entwickelt mit Python und PySide6.
+
+### Start (Windows PowerShell)
+
+```powershell
+git clone https://github.com/Eige90/CareAssistant.git
+cd CareAssistant
+python -m pip install -r requirements.txt
+python main.py
+```
+
+Benötigt Python 3 und die Pakete aus `requirements.txt`.
+
+### Aktueller Funktionsumfang
+- Kalender mit Monats-, Wochen- und Tagesansicht und sichtbaren Terminen
+- Termindetails und lokale Terminspeicherung
+- Betreutenakten mit Suche, Aktenzeichen, Status, Kontaktdaten und Notizen
+- Profil- und Design-Einstellungen
+- Lokale persistente Speicherung
+
+### Entwicklungsstand und Datenschutz
+Version 0.6 befindet sich in Entwicklung. Die lokale Abmeldeansicht ist **keine** sichere serverbasierte Anmeldung. Echte sensible Betreutendaten sollten erst nach Umsetzung geeigneter Zugriffsrechte, Verschlüsselung, Backups und Datenschutzprüfung produktiv verarbeitet werden.
+
+---
+
+Built by [Eige90](https://github.com/Eige90).
