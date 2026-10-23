@@ -1,5 +1,7 @@
 # CareAssistant v0.6
 
+**Source version / Version im Code:** `v0.6.0`
+
 ## English
 
 A local desktop application for organizing appointments and case information in legal guardianship workflows. Built with Python and PySide6.
