@@ -73,3 +73,9 @@ Built by [Eige90](https://github.com/Eige90).
 - [ ] Autovervollständigung bei Betreuten prüfen; unbekannte Eingaben weiterhin zulassen.
 - [ ] Vor Einsatz mit Echtdaten: Anmeldung, Zugriffsschutz, Verschlüsselung, Backups und Datenschutz prüfen.
 
+
+## GitHub Pages / Website status
+
+**English:** Python/PySide6 desktop application: GitHub Pages cannot host the running app; a documentation site would be separate.
+
+**Deutsch:** Python/PySide6-Desktop-App: GitHub Pages kann die Anwendung nicht ausführen; eine Dokumentationsseite wäre ein separates Angebot.
